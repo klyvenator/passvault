@@ -1,0 +1,773 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0B11DB81261581AC0057E389 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B11DB80261581AC0057E389 /* AppDelegate.swift */; };
+		0B11DB83261581AC0057E389 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B11DB82261581AC0057E389 /* SceneDelegate.swift */; };
+		0B11DB85261581AC0057E389 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B11DB84261581AC0057E389 /* ViewController.swift */; };
+		0B11DB88261581AC0057E389 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B11DB86261581AC0057E389 /* Main.storyboard */; };
+		0B11DB8A261581AD0057E389 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0B11DB89261581AD0057E389 /* Assets.xcassets */; };
+		0B11DB8D261581AD0057E389 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B11DB8B261581AD0057E389 /* LaunchScreen.storyboard */; };
+		0B11DB98261581AD0057E389 /* PassVaultTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B11DB97261581AD0057E389 /* PassVaultTests.swift */; };
+		0B11DBA3261581AD0057E389 /* PassVaultUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B11DBA2261581AD0057E389 /* PassVaultUITests.swift */; };
+		0B598FD22620A90B00AB3799 /* IndexController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B598FD12620A90B00AB3799 /* IndexController.swift */; };
+		0B5A7DB826219C9E0058C87A /* PasswordTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B5A7DB726219C9E0058C87A /* PasswordTableViewController.swift */; };
+		0B9B75A52622C82A00484453 /* PasswordController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B9B75A42622C82A00484453 /* PasswordController.swift */; };
+		0B9E08AA2620B76B00287B99 /* Index.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B9E08A92620B76B00287B99 /* Index.storyboard */; };
+		0BCA26DE26220E3700E21C9D /* PopupController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BCA26DD26220E3700E21C9D /* PopupController.swift */; };
+		DD23CB62EF3DF5C01F5CF418 /* Pods_PassVaultTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 361DE5279CD72FECD1DBCA84 /* Pods_PassVaultTests.framework */; };
+		E57362E5DB35C4035628553E /* Pods_PassVault.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF41F6D0550D8CE81DD8C684 /* Pods_PassVault.framework */; };
+		E979A09BEB04AD26BC91E9A8 /* Pods_PassVault_PassVaultUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3484781CB6D5DC95EFDDA9BC /* Pods_PassVault_PassVaultUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0B11DB94261581AD0057E389 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0B11DB75261581AC0057E389 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0B11DB7C261581AC0057E389;
+			remoteInfo = PassVault;
+		};
+		0B11DB9F261581AD0057E389 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0B11DB75261581AC0057E389 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0B11DB7C261581AC0057E389;
+			remoteInfo = PassVault;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0B11DB7D261581AC0057E389 /* PassVault.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PassVault.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0B11DB80261581AC0057E389 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0B11DB82261581AC0057E389 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		0B11DB84261581AC0057E389 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0B11DB87261581AC0057E389 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0B11DB89261581AD0057E389 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0B11DB8C261581AD0057E389 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0B11DB8E261581AD0057E389 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0B11DB93261581AD0057E389 /* PassVaultTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PassVaultTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0B11DB97261581AD0057E389 /* PassVaultTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PassVaultTests.swift; sourceTree = "<group>"; };
+		0B11DB99261581AD0057E389 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0B11DB9E261581AD0057E389 /* PassVaultUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PassVaultUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0B11DBA2261581AD0057E389 /* PassVaultUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PassVaultUITests.swift; sourceTree = "<group>"; };
+		0B11DBA4261581AD0057E389 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0B598FD12620A90B00AB3799 /* IndexController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IndexController.swift; sourceTree = "<group>"; };
+		0B5A7DB726219C9E0058C87A /* PasswordTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordTableViewController.swift; sourceTree = "<group>"; };
+		0B9B75A42622C82A00484453 /* PasswordController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordController.swift; sourceTree = "<group>"; };
+		0B9E08A92620B76B00287B99 /* Index.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Index.storyboard; sourceTree = "<group>"; };
+		0BCA26DD26220E3700E21C9D /* PopupController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopupController.swift; sourceTree = "<group>"; };
+		3484781CB6D5DC95EFDDA9BC /* Pods_PassVault_PassVaultUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PassVault_PassVaultUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		361DE5279CD72FECD1DBCA84 /* Pods_PassVaultTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PassVaultTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E154994B8460E074AA2D7CB /* Pods-PassVault-PassVaultUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PassVault-PassVaultUITests.debug.xcconfig"; path = "Target Support Files/Pods-PassVault-PassVaultUITests/Pods-PassVault-PassVaultUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		44A9FD94DA6EE45F1C7F2529 /* Pods-PassVault.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PassVault.debug.xcconfig"; path = "Target Support Files/Pods-PassVault/Pods-PassVault.debug.xcconfig"; sourceTree = "<group>"; };
+		99B7FCCF6AC050D81D7104A7 /* Pods-PassVault.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PassVault.release.xcconfig"; path = "Target Support Files/Pods-PassVault/Pods-PassVault.release.xcconfig"; sourceTree = "<group>"; };
+		BBF513213526B0D3DB4F6157 /* Pods-PassVault-PassVaultUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PassVault-PassVaultUITests.release.xcconfig"; path = "Target Support Files/Pods-PassVault-PassVaultUITests/Pods-PassVault-PassVaultUITests.release.xcconfig"; sourceTree = "<group>"; };
+		C756766BFCA41ED6C656098D /* Pods-PassVaultTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PassVaultTests.debug.xcconfig"; path = "Target Support Files/Pods-PassVaultTests/Pods-PassVaultTests.debug.xcconfig"; sourceTree = "<group>"; };
+		CC0615EDA2B0878A75221031 /* Pods-PassVaultTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PassVaultTests.release.xcconfig"; path = "Target Support Files/Pods-PassVaultTests/Pods-PassVaultTests.release.xcconfig"; sourceTree = "<group>"; };
+		FF41F6D0550D8CE81DD8C684 /* Pods_PassVault.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PassVault.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0B11DB7A261581AC0057E389 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E57362E5DB35C4035628553E /* Pods_PassVault.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0B11DB90261581AD0057E389 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD23CB62EF3DF5C01F5CF418 /* Pods_PassVaultTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0B11DB9B261581AD0057E389 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E979A09BEB04AD26BC91E9A8 /* Pods_PassVault_PassVaultUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0B11DB74261581AC0057E389 = {
+			isa = PBXGroup;
+			children = (
+				0B11DB7F261581AC0057E389 /* PassVault */,
+				0B11DB96261581AD0057E389 /* PassVaultTests */,
+				0B11DBA1261581AD0057E389 /* PassVaultUITests */,
+				0B11DB7E261581AC0057E389 /* Products */,
+				D0DA8BA7E4C36BB5D6624233 /* Pods */,
+				B68A702F63B74D73BF8F0E72 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		0B11DB7E261581AC0057E389 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0B11DB7D261581AC0057E389 /* PassVault.app */,
+				0B11DB93261581AD0057E389 /* PassVaultTests.xctest */,
+				0B11DB9E261581AD0057E389 /* PassVaultUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0B11DB7F261581AC0057E389 /* PassVault */ = {
+			isa = PBXGroup;
+			children = (
+				0B11DB80261581AC0057E389 /* AppDelegate.swift */,
+				0B11DB82261581AC0057E389 /* SceneDelegate.swift */,
+				0B11DB84261581AC0057E389 /* ViewController.swift */,
+				0B11DB86261581AC0057E389 /* Main.storyboard */,
+				0B11DB89261581AD0057E389 /* Assets.xcassets */,
+				0B11DB8B261581AD0057E389 /* LaunchScreen.storyboard */,
+				0B11DB8E261581AD0057E389 /* Info.plist */,
+				0B598FD12620A90B00AB3799 /* IndexController.swift */,
+				0B9E08A92620B76B00287B99 /* Index.storyboard */,
+				0B5A7DB726219C9E0058C87A /* PasswordTableViewController.swift */,
+				0BCA26DD26220E3700E21C9D /* PopupController.swift */,
+				0B9B75A42622C82A00484453 /* PasswordController.swift */,
+			);
+			path = PassVault;
+			sourceTree = "<group>";
+		};
+		0B11DB96261581AD0057E389 /* PassVaultTests */ = {
+			isa = PBXGroup;
+			children = (
+				0B11DB97261581AD0057E389 /* PassVaultTests.swift */,
+				0B11DB99261581AD0057E389 /* Info.plist */,
+			);
+			path = PassVaultTests;
+			sourceTree = "<group>";
+		};
+		0B11DBA1261581AD0057E389 /* PassVaultUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0B11DBA2261581AD0057E389 /* PassVaultUITests.swift */,
+				0B11DBA4261581AD0057E389 /* Info.plist */,
+			);
+			path = PassVaultUITests;
+			sourceTree = "<group>";
+		};
+		B68A702F63B74D73BF8F0E72 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FF41F6D0550D8CE81DD8C684 /* Pods_PassVault.framework */,
+				3484781CB6D5DC95EFDDA9BC /* Pods_PassVault_PassVaultUITests.framework */,
+				361DE5279CD72FECD1DBCA84 /* Pods_PassVaultTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D0DA8BA7E4C36BB5D6624233 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				44A9FD94DA6EE45F1C7F2529 /* Pods-PassVault.debug.xcconfig */,
+				99B7FCCF6AC050D81D7104A7 /* Pods-PassVault.release.xcconfig */,
+				3E154994B8460E074AA2D7CB /* Pods-PassVault-PassVaultUITests.debug.xcconfig */,
+				BBF513213526B0D3DB4F6157 /* Pods-PassVault-PassVaultUITests.release.xcconfig */,
+				C756766BFCA41ED6C656098D /* Pods-PassVaultTests.debug.xcconfig */,
+				CC0615EDA2B0878A75221031 /* Pods-PassVaultTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0B11DB7C261581AC0057E389 /* PassVault */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0B11DBA7261581AD0057E389 /* Build configuration list for PBXNativeTarget "PassVault" */;
+			buildPhases = (
+				458238E5845B87D409AE66D5 /* [CP] Check Pods Manifest.lock */,
+				0B11DB79261581AC0057E389 /* Sources */,
+				0B11DB7A261581AC0057E389 /* Frameworks */,
+				0B11DB7B261581AC0057E389 /* Resources */,
+				ED3CB78FF0E58E23D431D29D /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PassVault;
+			productName = PassVault;
+			productReference = 0B11DB7D261581AC0057E389 /* PassVault.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0B11DB92261581AD0057E389 /* PassVaultTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0B11DBAA261581AD0057E389 /* Build configuration list for PBXNativeTarget "PassVaultTests" */;
+			buildPhases = (
+				CB1A80E44E51DA099DA35D93 /* [CP] Check Pods Manifest.lock */,
+				0B11DB8F261581AD0057E389 /* Sources */,
+				0B11DB90261581AD0057E389 /* Frameworks */,
+				0B11DB91261581AD0057E389 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0B11DB95261581AD0057E389 /* PBXTargetDependency */,
+			);
+			name = PassVaultTests;
+			productName = PassVaultTests;
+			productReference = 0B11DB93261581AD0057E389 /* PassVaultTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0B11DB9D261581AD0057E389 /* PassVaultUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0B11DBAD261581AD0057E389 /* Build configuration list for PBXNativeTarget "PassVaultUITests" */;
+			buildPhases = (
+				82E5E457E840A4C700A2AAA9 /* [CP] Check Pods Manifest.lock */,
+				0B11DB9A261581AD0057E389 /* Sources */,
+				0B11DB9B261581AD0057E389 /* Frameworks */,
+				0B11DB9C261581AD0057E389 /* Resources */,
+				885FA35EBEEFF8644206C217 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0B11DBA0261581AD0057E389 /* PBXTargetDependency */,
+			);
+			name = PassVaultUITests;
+			productName = PassVaultUITests;
+			productReference = 0B11DB9E261581AD0057E389 /* PassVaultUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0B11DB75261581AC0057E389 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					0B11DB7C261581AC0057E389 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					0B11DB92261581AD0057E389 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 0B11DB7C261581AC0057E389;
+					};
+					0B11DB9D261581AD0057E389 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 0B11DB7C261581AC0057E389;
+					};
+				};
+			};
+			buildConfigurationList = 0B11DB78261581AC0057E389 /* Build configuration list for PBXProject "PassVault" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0B11DB74261581AC0057E389;
+			productRefGroup = 0B11DB7E261581AC0057E389 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0B11DB7C261581AC0057E389 /* PassVault */,
+				0B11DB92261581AD0057E389 /* PassVaultTests */,
+				0B11DB9D261581AD0057E389 /* PassVaultUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0B11DB7B261581AC0057E389 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B11DB8D261581AD0057E389 /* LaunchScreen.storyboard in Resources */,
+				0B11DB8A261581AD0057E389 /* Assets.xcassets in Resources */,
+				0B11DB88261581AC0057E389 /* Main.storyboard in Resources */,
+				0B9E08AA2620B76B00287B99 /* Index.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0B11DB91261581AD0057E389 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0B11DB9C261581AD0057E389 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		458238E5845B87D409AE66D5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PassVault-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		82E5E457E840A4C700A2AAA9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PassVault-PassVaultUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		885FA35EBEEFF8644206C217 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PassVault-PassVaultUITests/Pods-PassVault-PassVaultUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PassVault-PassVaultUITests/Pods-PassVault-PassVaultUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PassVault-PassVaultUITests/Pods-PassVault-PassVaultUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CB1A80E44E51DA099DA35D93 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PassVaultTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ED3CB78FF0E58E23D431D29D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PassVault/Pods-PassVault-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PassVault/Pods-PassVault-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PassVault/Pods-PassVault-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0B11DB79261581AC0057E389 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B9B75A52622C82A00484453 /* PasswordController.swift in Sources */,
+				0B598FD22620A90B00AB3799 /* IndexController.swift in Sources */,
+				0B11DB85261581AC0057E389 /* ViewController.swift in Sources */,
+				0B11DB81261581AC0057E389 /* AppDelegate.swift in Sources */,
+				0B11DB83261581AC0057E389 /* SceneDelegate.swift in Sources */,
+				0BCA26DE26220E3700E21C9D /* PopupController.swift in Sources */,
+				0B5A7DB826219C9E0058C87A /* PasswordTableViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0B11DB8F261581AD0057E389 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B11DB98261581AD0057E389 /* PassVaultTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0B11DB9A261581AD0057E389 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B11DBA3261581AD0057E389 /* PassVaultUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0B11DB95261581AD0057E389 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0B11DB7C261581AC0057E389 /* PassVault */;
+			targetProxy = 0B11DB94261581AD0057E389 /* PBXContainerItemProxy */;
+		};
+		0B11DBA0261581AD0057E389 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0B11DB7C261581AC0057E389 /* PassVault */;
+			targetProxy = 0B11DB9F261581AD0057E389 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0B11DB86261581AC0057E389 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0B11DB87261581AC0057E389 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0B11DB8B261581AD0057E389 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0B11DB8C261581AD0057E389 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0B11DBA5261581AD0057E389 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0B11DBA6261581AD0057E389 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0B11DBA8261581AD0057E389 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 44A9FD94DA6EE45F1C7F2529 /* Pods-PassVault.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 549F2DMM9F;
+				INFOPLIST_FILE = PassVault/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.klyorg.PassVault;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0B11DBA9261581AD0057E389 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 99B7FCCF6AC050D81D7104A7 /* Pods-PassVault.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 549F2DMM9F;
+				INFOPLIST_FILE = PassVault/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.klyorg.PassVault;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		0B11DBAB261581AD0057E389 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C756766BFCA41ED6C656098D /* Pods-PassVaultTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 549F2DMM9F;
+				INFOPLIST_FILE = PassVaultTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.klyorg.PassVaultTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PassVault.app/PassVault";
+			};
+			name = Debug;
+		};
+		0B11DBAC261581AD0057E389 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CC0615EDA2B0878A75221031 /* Pods-PassVaultTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 549F2DMM9F;
+				INFOPLIST_FILE = PassVaultTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.klyorg.PassVaultTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PassVault.app/PassVault";
+			};
+			name = Release;
+		};
+		0B11DBAE261581AD0057E389 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3E154994B8460E074AA2D7CB /* Pods-PassVault-PassVaultUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 549F2DMM9F;
+				INFOPLIST_FILE = PassVaultUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.klyorg.PassVaultUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PassVault;
+			};
+			name = Debug;
+		};
+		0B11DBAF261581AD0057E389 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BBF513213526B0D3DB4F6157 /* Pods-PassVault-PassVaultUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 549F2DMM9F;
+				INFOPLIST_FILE = PassVaultUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.klyorg.PassVaultUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PassVault;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0B11DB78261581AC0057E389 /* Build configuration list for PBXProject "PassVault" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0B11DBA5261581AD0057E389 /* Debug */,
+				0B11DBA6261581AD0057E389 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0B11DBA7261581AD0057E389 /* Build configuration list for PBXNativeTarget "PassVault" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0B11DBA8261581AD0057E389 /* Debug */,
+				0B11DBA9261581AD0057E389 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0B11DBAA261581AD0057E389 /* Build configuration list for PBXNativeTarget "PassVaultTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0B11DBAB261581AD0057E389 /* Debug */,
+				0B11DBAC261581AD0057E389 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0B11DBAD261581AD0057E389 /* Build configuration list for PBXNativeTarget "PassVaultUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0B11DBAE261581AD0057E389 /* Debug */,
+				0B11DBAF261581AD0057E389 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0B11DB75261581AC0057E389 /* Project object */;
+}

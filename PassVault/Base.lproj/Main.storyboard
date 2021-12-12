@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_0" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="PassVault" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="vl9-mx-FZP">
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="PassVault" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QNd-wN-VEC">
+                                <rect key="frame" x="86.666666666666686" y="267" width="217" height="52.666666666666686"/>
+                                <fontDescription key="fontDescription" name="AppleColorEmoji" family="Apple Color Emoji" pointSize="40"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Input password" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="7oh-ft-5AA" userLabel="loginBox">
+                                <rect key="frame" x="109.66666666666669" y="364.66666666666669" width="171" height="34"/>
+                                <fontDescription key="fontDescription" name="Courier" family="Courier" pointSize="17"/>
+                                <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Input password into box above" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AfU-jX-fJX" userLabel="loginStatus">
+                                <rect key="frame" x="47" y="428.66666666666669" width="296" height="17"/>
+                                <fontDescription key="fontDescription" name="Courier" family="Courier" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="y6J-6n-fX2"/>
+                        <color key="backgroundColor" systemColor="systemOrangeColor"/>
+                        <constraints>
+                            <constraint firstItem="QNd-wN-VEC" firstAttribute="top" secondItem="y6J-6n-fX2" secondAttribute="top" constant="223" id="3a4-zL-Rb7"/>
+                            <constraint firstItem="AfU-jX-fJX" firstAttribute="top" secondItem="7oh-ft-5AA" secondAttribute="bottom" constant="30" id="6Dk-Bq-F1G"/>
+                            <constraint firstItem="7oh-ft-5AA" firstAttribute="centerX" secondItem="vl9-mx-FZP" secondAttribute="centerX" id="FHn-gP-u40"/>
+                            <constraint firstItem="AfU-jX-fJX" firstAttribute="centerX" secondItem="vl9-mx-FZP" secondAttribute="centerX" id="Nfb-0b-CFe"/>
+                            <constraint firstItem="7oh-ft-5AA" firstAttribute="top" secondItem="QNd-wN-VEC" secondAttribute="bottom" constant="45" id="nBk-WI-adz"/>
+                            <constraint firstItem="QNd-wN-VEC" firstAttribute="centerX" secondItem="vl9-mx-FZP" secondAttribute="centerX" id="sss-sz-rBc"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="loginBox" destination="7oh-ft-5AA" id="YYy-qB-UwA"/>
+                        <outlet property="loginStatus" destination="AfU-jX-fJX" id="oMA-xR-6tW"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-23.076923076923077" y="71.800947867298575"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemOrangeColor">
+            <color red="1" green="0.58431372549019611" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
